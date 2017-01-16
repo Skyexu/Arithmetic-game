@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 全屏主题 -->
+    <style name="FullscreenTheme" parent="@style/AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <!-- dialog中的按钮风格 -->
+    <style name="DialogButtonStyle" parent="@style/AppTheme">
+        <item name="android:background">@drawable/selector_message_dialog_button_bg</item>
+        <item name="android:paddingLeft">@dimen/message_dialog_button_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/message_dialog_button_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/message_dialog_button_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/message_dialog_button_padding_vertical</item>
+        <item name="android:textSize">@dimen/message_dialog_button_text_size</item>
+    </style>
+
+    <!-- dialog中标题的风格 -->
+    <style name="DialogTitleStyle" parent="@style/AppTheme">
+        <item name="android:paddingLeft">@dimen/message_dialog_title_padding_horizontal</item>
+        <item name="android:paddingRight">@dimen/message_dialog_title_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/message_dialog_title_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/message_dialog_title_padding_vertical</item>
+        <item name="android:textSize">@dimen/message_dialog_title_text_size</item>
+        <item name="android:textColor">@color/dialog_title_text_color</item>
+    </style>
+
+    <!-- dialog中消息的风格 -->
+    <style name="DialogMessageStyle" parent="@style/AppTheme">
+        <item name="android:textSize">@dimen/message_dialog_message_text_size</item>
+        <item name="android:paddingLeft">@dimen/message_dialog_message_padding_horizontal</item>
+        <item name="android:paddingTop">@dimen/message_dialog_message_padding_vertical</item>
+        <item name="android:paddingBottom">@dimen/message_dialog_message_padding_vertical</item>
+    </style>
+
+    <!-- dialog中分割线的风格 -->
+    <style name="DialogLineStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/message_dialog_line_height</item>
+        <item name="android:background">@color/dialog_line_bg_color</item>
+        <item name="android:layout_marginTop">@dimen/message_dialog_line_margin_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/message_dialog_line_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/message_dialog_line_margin_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/message_dialog_line_margin_vertical</item>
+    </style>
+
+    <!-- HomeActivity界面中的按钮风格 -->
+    <style name="HomeActivityButtonStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textSize">@dimen/activity_home_button_text_size</item>
+        <item name="android:layout_marginTop">@dimen/activity_home_button_margin_top</item>
+        <item name="android:paddingTop">@dimen/activity_home_button_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_home_button_padding_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/activity_home_button_margin_horizontal</item>
+        <item name="android:layout_marginRight">@dimen/activity_home_button_margin_horizontal</item>
+    </style>
+
+    <!-- 加载对话框的风格 -->
+    <style name="LoadingDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/dialog_loading_bg_color</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!-- GameActivity中显示分数的TextView的风格 -->
+    <style name="GameActivityScoreTVStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.3</item>
+        <item name="android:textColor">@color/activity_game_score_tv_text_color</item>
+        <item name="android:layout_marginLeft">@dimen/activity_game_score_tv_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activity_game_score_tv_margin_right</item>
+        <item name="android:paddingLeft">@dimen/activity_game_score_tv_padding_left</item>
+        <item name="android:paddingRight">@dimen/activity_game_score_tv_padding_right</item>
+        <item name="android:paddingTop">@dimen/activity_game_score_tv_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_game_score_tv_padding_bottom</item>
+    </style>
+
+    <!-- GameActivity中显示表达式的TextView的风格 -->
+    <style name="GameActivityOperationStyle" parent="@style/AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_width">@dimen/activity_game_operation_tv_bg_width</item>
+        <item name="android:layout_height">@dimen/activity_game_operation_tv_bg_height</item>
+        <item name="android:paddingLeft">@dimen/activity_game_operation_tv_padding_left</item>
+        <item name="android:paddingRight">@dimen/activity_game_operation_tv_padding_right</item>
+        <item name="android:paddingTop">@dimen/activity_game_operation_tv_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_game_operation_tv_padding_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/activity_game_operation_tv_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activity_game_operation_tv_margin_right
+        </item>
+        <item name="android:textSize">@dimen/activity_game_operation_tv_text_size</item>
+        <item name="android:textColor">@color/activity_game_operation_tv_text_color</item>
+    </style>
+
+    <!-- GameActivity中选项TextView的风格 -->
+    <style name="GameActivityOperationChoiceStyle" parent="@style/AppTheme">
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:textColor">@color/activity_game_operation_tv_text_color</item>
+        <item name="android:textSize">@dimen/activity_game_operation_tv_text_size</item>
+        <item name="android:layout_width">@dimen/activity_game_operation_choice_tv_bg_width</item>
+        <item name="android:layout_height">@dimen/activity_game_operation_choice_tv_bg_height</item>
+        <item name="android:paddingLeft">@dimen/activity_game_operation_choice_tv_bg_padding_left
+        </item>
+        <item name="android:paddingRight">
+            @dimen/activity_game_operation_choice_tv_bg_padding_right
+        </item>
+        <item name="android:paddingTop">@dimen/activity_game_operation_choice_tv_bg_padding_top
+        </item>
+        <item name="android:paddingBottom">
+            @dimen/activity_game_operation_choice_tv_bg_padding_bottom
+        </item>
+        <item name="android:layout_marginLeft">
+            @dimen/activity_game_operation_choice_tv_bg_margin_left
+        </item>
+        <item name="android:layout_marginRight">
+            @dimen/activity_game_operation_choice_tv_bg_margin_right
+        </item>
+    </style>
+
+    <!-- ResultActivity中按钮的风格 -->
+    <style name="ResultActivityChoiceButtonStyle" parent="@style/AppTheme">
+        <item name="android:textColor">@color/activity_result_choice_button_text_color</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_marginLeft">@dimen/activity_result_choice_button_margin_left
+        </item>
+        <item name="android:layout_marginRight">@dimen/activity_result_choice_button_margin_right
+        </item>
+        <item name="android:layout_marginTop">@dimen/activity_result_choice_button_margin_top</item>
+        <item name="android:layout_marginBottom">
+            @dimen/activity_result_choice_button_margin_bottom
+        </item>
+        <item name="android:paddingLeft">@dimen/activity_result_choice_button_padding_left</item>
+        <item name="android:paddingRight">@dimen/activity_result_choice_button_padding_right</item>
+        <item name="android:paddingTop">@dimen/activity_result_choice_button_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_result_choice_button_padding_bottom
+        </item>
+        <item name="android:background">@drawable/selector_activity_result_choice_button_bg</item>
+    </style>
+
+    <!-- ResultActivity中提示TextView的风格 -->
+    <style name="ResultActivityScoreHintTVStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">0.15</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/activity_result_score_hint_text_size</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/activity_result_score_hint_text_color</item>
+    </style>
+
+    <!-- SettingActivity中不同菜单项的背景LinearLayout控件风格 -->
+    <style name="SettingActivityMenuLLStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">@dimen/activity_setting_menu_ll_margin_left</item>
+        <item name="android:layout_marginRight">@dimen/activity_setting_menu_ll_margin_right</item>
+        <item name="android:layout_marginBottom">@dimen/activity_setting_menu_ll_margin_bottom
+        </item>
+        <item name="android:background">@drawable/activity_setting_menu_ll_bg</item>
+    </style>
+
+    <!-- SettingActivity中菜单项名称TextView控件风格 -->
+    <style name="SettingActivityMenuNameTVStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">@color/activity_setting_menu_name_text_color</item>
+        <item name="android:background">@color/activity_setting_menu_name_bg_color</item>
+        <item name="android:textSize">@dimen/activity_setting_menu_name_text_size</item>
+        <item name="android:paddingLeft">@dimen/activity_setting_menu_padding_left</item>
+        <item name="android:paddingTop">@dimen/activity_setting_menu_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_setting_menu_padding_bottom</item>
+    </style>
+
+    <!-- SettingActivity中单选按钮的风格 -->
+    <style name="SettingActivityRadioButtonStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">serif</item>
+    </style>
+
+    <!-- SettingActivity中输入设置菜单项中LinearLayout的风格 -->
+    <style name="SettingActivityNumberLLStyle" parent="@style/AppTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal
+            <itme></itme>
+        </item>
+        <item name="android:weightSum">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:paddingLeft">@dimen/activity_setting_menu_number_ll_padding_left</item>
+        <item name="android:paddingRight">@dimen/activity_setting_menu_number_ll_padding_right
+        </item>
+        <item name="android:paddingTop">@dimen/activity_setting_menu_number_ll_padding_top</item>
+        <item name="android:paddingBottom">@dimen/activity_setting_menu_number_ll_padding_bottom
+        </item>
+    </style>
+
+    <!-- HelpActivity中说明项TextView风格 -->
+    <style name="HelpActivityIntroItemTVStyle" parent="@style/AppTheme">
+        <item name="android:textColor">@color/activity_help_intro_tv_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:layout_marginBottom">@dimen/activity_help_intro_item_margin_bottom
+        </item>
+        <item name="android:paddingLeft">@dimen/activity_help_intro_item_padding_left</item>
+    </style>
+
+</resources>

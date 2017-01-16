@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 通用尺寸 -->
+    <dimen name="activity_margin_horizontal">10dp</dimen>
+    <dimen name="activity_margin_vertical">10dp</dimen>
+
+    <!-- dialog使用的尺寸值 -->
+    <dimen name="message_dialog_width">300dp</dimen>
+    <dimen name="message_dialog_title_text_size">20dp</dimen>
+    <dimen name="message_dialog_message_text_size">15dp</dimen>
+    <dimen name="message_dialog_button_text_size">15dp</dimen>
+    <dimen name="message_dialog_button_padding_horizontal">10dp</dimen>
+    <dimen name="message_dialog_button_padding_vertical">10dp</dimen>
+    <dimen name="message_dialog_title_padding_horizontal">10dp</dimen>
+    <dimen name="message_dialog_title_padding_vertical">10dp</dimen>
+    <dimen name="message_dialog_message_padding_horizontal">10dp</dimen>
+    <dimen name="message_dialog_message_padding_vertical">15dp</dimen>
+    <dimen name="message_dialog_line_height">1dp</dimen>
+    <dimen name="message_dialog_line_margin_horizontal">10dp</dimen>
+    <dimen name="message_dialog_line_margin_vertical">8dp</dimen>
+
+    <!-- HomeActivity中使用的尺寸数据 -->
+    <dimen name="activity_home_setting_button_corner_radius">50dp</dimen>
+    <dimen name="activity_home_setting_button_padding_left">10dp</dimen>
+    <dimen name="activity_home_setting_button_padding_right">10dp</dimen>
+    <dimen name="activity_home_setting_button_padding_top">10dp</dimen>
+    <dimen name="activity_home_setting_button_padding_bottom">10dp</dimen>
+    <dimen name="activity_home_help_button_corner_radius">50dp</dimen>
+    <dimen name="activity_home_help_button_padding_left">10dp</dimen>
+    <dimen name="activity_home_help_button_padding_right">10dp</dimen>
+    <dimen name="activity_home_help_button_padding_top">10dp</dimen>
+    <dimen name="activity_home_help_button_padding_bottom">10dp</dimen>
+    <dimen name="activity_home_button_stroke_width">2dp</dimen>
+    <dimen name="activity_home_button_margin_top">15dp</dimen>
+    <dimen name="activity_home_button_padding_top">10dp</dimen>
+    <dimen name="activity_home_button_padding_bottom">10dp</dimen>
+    <dimen name="activity_home_button_margin_horizontal">30dp</dimen>
+    <dimen name="activity_home_button_corner_radius">15dp</dimen>
+    <dimen name="activity_home_button_text_size">20dp</dimen>
+    <dimen name="activity_home_tv_text_size">15sp</dimen>
+    <dimen name="activity_home_tv_margin_bottom">20dp</dimen>
+
+    <!-- LoadingDialog中使用的尺寸数据 -->
+    <dimen name="dialog_loading_text_size">20dp</dimen>
+    <dimen name="loading_dialog_width">300dp</dimen>
+    <dimen name="loading_dialog_height">300dp</dimen>
+
+    <!-- GameActivity中使用的尺寸值 -->
+    <dimen name="activity_game_score_tv_margin_left">5dp</dimen>
+    <dimen name="activity_game_score_tv_margin_right">5dp</dimen>
+    <dimen name="activity_game_score_tv_padding_left">5dp</dimen>
+    <dimen name="activity_game_score_tv_padding_right">5dp</dimen>
+    <dimen name="activity_game_score_tv_padding_top">5dp</dimen>
+    <dimen name="activity_game_score_tv_padding_bottom">5dp</dimen>
+    <dimen name="activity_game_score_margin_top">5dp</dimen>
+    <dimen name="activity_game_score_margin_bottom">5dp</dimen>
+    <dimen name="activity_game_operation_ll_margin_bottom">15dp</dimen>
+    <dimen name="activity_game_operation_tv_margin_left">10dp</dimen>
+    <dimen name="activity_game_operation_tv_margin_right">10dp</dimen>
+    <dimen name="activity_game_operation_tv_padding_left">5dp</dimen>
+    <dimen name="activity_game_operation_tv_padding_right">5dp</dimen>
+    <dimen name="activity_game_operation_tv_padding_top">5dp</dimen>
+    <dimen name="activity_game_operation_tv_padding_bottom">5dp</dimen>
+    <dimen name="activity_game_operation_tv_text_size">25dp</dimen>
+    <dimen name="activity_game_operation_tv_bg_corner_radius">15dp</dimen>
+    <dimen name="activity_game_operation_tv_bg_width">80dp</dimen>
+    <dimen name="activity_game_operation_tv_bg_height">80dp</dimen>
+    <dimen name="activity_game_operation_choice_ll_padding_bottom">40dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_width">70dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_height">45dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_text_size">50dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_padding_left">8dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_padding_right">8dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_padding_top">8dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_padding_bottom">8dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_margin_left">2dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_margin_right">2dp</dimen>
+    <dimen name="activity_game_operation_choice_tv_bg_margin_bottom">10dp</dimen>
+    <dimen name="activity_game_lucky_iv_margin_bottom">10dp</dimen>
+
+    <!-- ResultActivity中使用的尺寸值 -->
+    <dimen name="activity_result_hint_text_size">50dp</dimen>
+    <dimen name="activity_result_choice_button_text_size">25dp</dimen>
+    <dimen name="activity_result_choice_button_margin_left">5dp</dimen>
+    <dimen name="activity_result_choice_button_margin_right">5dp</dimen>
+    <dimen name="activity_result_choice_button_margin_top">10dp</dimen>
+    <dimen name="activity_result_choice_button_margin_bottom">10dp</dimen>
+    <dimen name="activity_result_choice_button_padding_left">10dp</dimen>
+    <dimen name="activity_result_choice_button_padding_right">10dp</dimen>
+    <dimen name="activity_result_choice_button_padding_top">10dp</dimen>
+    <dimen name="activity_result_choice_button_padding_bottom">10dp</dimen>
+    <dimen name="activity_result_choice_button_corner_radius">15dp</dimen>
+    <dimen name="activity_result_score_hint_text_size">15dp</dimen>
+    <dimen name="activity_result_score_show_lv_padding_vertical">55dp</dimen>
+    <dimen name="activity_result_score_show_lv_padding_horizontal">15dp</dimen>
+    <dimen name="activity_result_score_show_lv_margin_horizontal">20dp</dimen>
+    <dimen name="activity_result_score_show_lv_margin_bottom">15dp</dimen>
+
+    <!-- SettingActivity中使用的尺寸值 -->
+    <dimen name="activity_setting_menu_ll_margin_bottom">15dp</dimen>
+    <dimen name="activity_setting_menu_ll_margin_left">10dp</dimen>
+    <dimen name="activity_setting_menu_ll_margin_right">10dp</dimen>
+    <dimen name="activity_setting_menu_name_text_size">20dp</dimen>
+    <dimen name="activity_setting_menu_ll_bg_stroke_width">1dp</dimen>
+    <dimen name="activity_setting_menu_ll_bg_corner_radius">10dp</dimen>
+    <dimen name="activity_setting_menu_padding_left">20dp</dimen>
+    <dimen name="activity_setting_menu_padding_right">10dp</dimen>
+    <dimen name="activity_setting_menu_padding_top">10dp</dimen>
+    <dimen name="activity_setting_menu_padding_bottom">10dp</dimen>
+    <dimen name="activity_setting_menu_number_ll_padding_left">10dp</dimen>
+    <dimen name="activity_setting_menu_number_ll_padding_right">10dp</dimen>
+    <dimen name="activity_setting_menu_number_ll_padding_top">10dp</dimen>
+    <dimen name="activity_setting_menu_number_ll_padding_bottom">10dp</dimen>
+    <dimen name="activity_setting_back_button_margin_bottom">20dp</dimen>
+    <dimen name="activity_setting_back_button_corner_radius">50dp</dimen>
+    <dimen name="activity_setting_back_button_padding_left">10dp</dimen>
+    <dimen name="activity_setting_back_button_padding_right">10dp</dimen>
+    <dimen name="activity_setting_back_button_padding_top">10dp</dimen>
+    <dimen name="activity_setting_back_button_padding_bottom">10dp</dimen>
+
+    <!-- HelpActivity中使用的尺寸值 -->
+    <dimen name="activity_help_back_button_corner_radius">50dp</dimen>
+    <dimen name="activity_help_back_button_padding_left">10dp</dimen>
+    <dimen name="activity_help_back_button_padding_right">10dp</dimen>
+    <dimen name="activity_help_back_button_padding_top">10dp</dimen>
+    <dimen name="activity_help_back_button_padding_bottom">10dp</dimen>
+    <dimen name="activity_help_back_button_margin_bottom">15dp</dimen>
+    <dimen name="activity_help_hint_text_size">20dp</dimen>
+    <dimen name="activity_help_hint_padding_left">10dp</dimen>
+    <dimen name="activity_help_hint_padding_top">5dp</dimen>
+    <dimen name="activity_help_hint_padding_bottom">5dp</dimen>
+    <dimen name="activity_help_intro_item_margin_bottom">5dp</dimen>
+    <dimen name="activity_help_intro_ll_padding_vertical">50dp</dimen>
+    <dimen name="activity_help_intro_ll_padding_horizontal">10dp</dimen>
+    <dimen name="activity_help_intro_ll_bg_stroke_width">1dp</dimen>
+    <dimen name="activity_help_intro_ll_bg_corner_radius">10dp</dimen>
+    <dimen name="activity_help_intro_item_padding_left">5dp</dimen>
+    <dimen name="activity_help_intro_item_padding_right">5dp</dimen>
+    <dimen name="activity_help_intro_item_padding_top">5dp</dimen>
+    <dimen name="activity_help_intro_item_padding_bottom">5dp</dimen>
+
+</resources>

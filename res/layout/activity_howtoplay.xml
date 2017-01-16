@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg">
+
+	<RelativeLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center" >
+
+		<TextView
+			android:id="@+id/intro"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerHorizontal="true"
+			android:padding="20dp"
+			android:text="@string/activity_howtoplay"
+			android:textColor="#F6CF44"
+			android:textSize="26sp"
+			android:textStyle="bold" />
+
+
+		<TextView
+			android:id="@+id/high_scores_list"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_below="@id/intro"
+			android:layout_centerHorizontal="true"
+			
+			android:padding="10dp"
+			android:text="@string/activity_howtoplay_content"
+			android:textColor="#ffffffff"
+			android:textSize="18sp"
+			android:textStyle="bold" />
+	</RelativeLayout>
+
+</RelativeLayout>

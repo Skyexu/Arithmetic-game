@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg">
+
+    <LinearLayout
+        android:id="@+id/activity_result_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+       
+
+        <Button
+            style="@style/ResultActivityChoiceButtonStyle"
+            android:onClick="onQuitButtonClick"
+            android:text="@string/activity_result_choice_button_quit" />
+         <Button
+            style="@style/ResultActivityChoiceButtonStyle"
+            android:onClick="onShareButtonClick"
+            android:text="@string/activity_result_choice_button_share" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/activity_result_choice"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/activity_result_correct_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_vertical"
+            android:gravity="center"
+            android:text="@string/score_correct_hint"
+            android:textColor="@color/score_correct_tv_color"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/activity_result_pass_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_vertical"
+            android:gravity="center"
+            android:text="@string/score_pass_hint"
+            android:textColor="@color/score_pass_tv_color"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/activity_result_error_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_margin_vertical"
+            android:gravity="center"
+            android:text="@string/score_error_hint"
+            android:textColor="@color/score_error_tv_color"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+</RelativeLayout>

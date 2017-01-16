@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义倒计时控件所使用的属性 -->
+    <declare-styleable name="CountDownWidget">
+        <attr name="full_color" format="color|reference" />
+        <attr name="alarm_color" format="color|reference" />
+        <attr name="full_number" format="integer" />
+        <attr name="decrease_number" format="integer" />
+    </declare-styleable>
+
+    <!-- 自定义分数显示控件所使用的属性 -->
+    <declare-styleable name="ScoreShowWidget">
+        <attr name="bg_color" format="color|reference" />
+        <attr name="text_color" format="color|reference" />
+        <attr name="text_size" format="float" />
+    </declare-styleable>
+
+</resources>

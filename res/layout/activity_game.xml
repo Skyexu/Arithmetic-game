@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg">
+
+    <!-- 倒计时部分 -->
+
+    <com.sac.wmath.widget.CountDownWidget
+        android:id="@+id/activity_game_count_down"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        app:alarm_color="@color/activity_game_count_down_widget_alarm_color"
+        app:decrease_number="5"
+        app:full_color="@color/activity_game_count_down_widget_full_color"
+        app:full_number="100" />
+
+    <!-- 分数显示部分 -->
+
+    <LinearLayout
+        android:id="@+id/activity_game_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/activity_game_count_down"
+        android:layout_marginBottom="@dimen/activity_game_score_margin_bottom"
+        android:layout_marginTop="@dimen/activity_game_score_margin_top"
+        android:orientation="horizontal"
+        android:weightSum="0.9">
+
+        <TextView
+            android:id="@+id/activity_game_score_correct"
+            style="@style/GameActivityScoreTVStyle"
+            android:background="@color/score_correct_tv_color"
+            android:text="@string/score_correct_hint" />
+
+        <TextView
+            android:id="@+id/activity_game_score_pass"
+            style="@style/GameActivityScoreTVStyle"
+            android:background="@color/score_pass_tv_color"
+            android:text="@string/score_pass_hint" />
+
+        <TextView
+            android:id="@+id/activity_game_score_error"
+            style="@style/GameActivityScoreTVStyle"
+            android:background="@color/score_error_tv_color"
+            android:text="@string/score_error_hint" />
+    </LinearLayout>
+
+    <!-- 选项部分 -->
+
+    <LinearLayout
+        android:id="@+id/activity_game_operation_choice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/activity_game_operation_two_choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_game_operation_choice_ll_padding_bottom">
+
+            <TextView
+                android:id="@+id/activity_game_operation_two_choice_correct"
+                style="@style/GameActivityOperationChoiceStyle"
+                android:background="@drawable/selector_operation_choice_seven_bg"
+                android:text="@string/activity_game_operation_correct" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_two_choice_error"
+                style="@style/GameActivityOperationChoiceStyle"
+                android:background="@drawable/selector_operation_choice_six_bg"
+                android:text="@string/activity_game_operation_error" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/activity_game_operation_four_choice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/activity_game_operation_choice_ll_padding_bottom"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/activity_game_operation_four_choice_one"
+                style="@style/GameActivityOperationChoiceStyle"
+                android:background="@drawable/selector_operation_choice_two_bg"
+                android:text="@string/activity_game_operation_plus" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_four_choice_two"
+                style="@style/GameActivityOperationChoiceStyle"
+                android:background="@drawable/selector_operation_choice_three_bg"
+                android:text="@string/activity_game_operation_minus" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_four_choice_three"
+                style="@style/GameActivityOperationChoiceStyle"
+                android:background="@drawable/selector_operation_choice_four_bg"
+                android:text="@string/activity_game_operation_multiply" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_four_choice_four"
+                style="@style/GameActivityOperationChoiceStyle"
+                android:background="@drawable/selector_operation_choice_five_bg"
+                android:text="@string/activity_game_operation_division" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 表达式显示部分 -->
+
+    <LinearLayout
+        android:id="@+id/activity_game_operation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/activity_game_operation_choice"
+        android:layout_below="@id/activity_game_score"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_game_operation_ll_margin_bottom"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activity_game_operation_operand_left"
+                style="@style/GameActivityOperationStyle"
+                android:background="@drawable/operation_one_bg" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_calculate_operator"
+                style="@style/GameActivityOperationStyle"
+                android:background="@drawable/operation_one_bg" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_operand_right"
+                style="@style/GameActivityOperationStyle"
+                android:background="@drawable/operation_one_bg" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/activity_game_operation_compare_operator"
+                style="@style/GameActivityOperationStyle"
+                android:background="@drawable/operation_one_bg"
+                android:text="@string/activity_game_operation_equal" />
+
+            <TextView
+                android:id="@+id/activity_game_operation_result"
+                style="@style/GameActivityOperationStyle"
+                android:background="@drawable/operation_one_bg" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

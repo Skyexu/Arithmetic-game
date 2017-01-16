@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    android:paddingBottom="@dimen/activity_margin_vertical"
+    android:paddingLeft="@dimen/activity_margin_horizontal"
+    android:paddingRight="@dimen/activity_margin_horizontal"
+    android:paddingTop="@dimen/activity_margin_vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@null"
+            android:src="@drawable/ic_launcher" />
+
+        <Button
+            style="@style/HomeActivityButtonStyle"
+            android:background="@drawable/selector_activity_home_mode_button_bg"
+            android:onClick="onNormalModeButtonClick"
+            android:text="@string/activity_home_button_normal_mode"
+            android:textColor="@color/activity_home_mode_button_text_color" />
+		<Button
+            style="@style/HomeActivityButtonStyle"
+            android:background="@drawable/selector_activity_home_mode_button_bg"
+            android:onClick="onEndlessModeButtonClick"
+            android:text="@string/activity_home_button_endless_mode"
+            android:textColor="@color/activity_home_mode_button_text_color" />
+		<Button
+            style="@style/HomeActivityButtonStyle"
+            android:background="@drawable/selector_activity_home_mode_button_bg"
+            android:onClick="onRankButtonClick"
+            android:text="@string/activity_home_button_rank"
+            android:textColor="@color/activity_home_mode_button_text_color" />
+		<Button
+            style="@style/HomeActivityButtonStyle"
+            android:background="@drawable/selector_activity_home_mode_button_bg"
+            android:onClick="onHowToPlayButtonClick"
+            android:text="@string/activity_home_button_htp"
+            android:textColor="@color/activity_home_mode_button_text_color" />
+        <Button
+            style="@style/HomeActivityButtonStyle"
+            android:background="@drawable/selector_activity_home_quit_button_bg"
+            android:onClick="onQuitButtonClick"
+            android:text="@string/activity_home_button_quit"
+            android:textColor="@color/activity_home_quit_button_text_color" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/activity_home_setting_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector_activity_home_setting_button_bg"
+        android:contentDescription="@null"
+        android:onClick="onSettingButtonClick"
+        android:paddingBottom="@dimen/activity_home_setting_button_padding_bottom"
+        android:paddingLeft="@dimen/activity_home_setting_button_padding_left"
+        android:paddingRight="@dimen/activity_home_setting_button_padding_right"
+        android:paddingTop="@dimen/activity_home_setting_button_padding_top"
+        android:src="@drawable/ic_action_settings" />
+
+</RelativeLayout>

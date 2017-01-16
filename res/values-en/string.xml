@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Default strings -->
+    <string name="app_name">Calculate Hard</string>
+    <string name="ok">sure</string>
+    <string name="cancel">quit</string>
+
+    <!-- Strings for HomeActivity -->
+    <string name="activity_home_button_endless_mode">Endless Mode</string>
+    <string name="activity_home_button_normal_mode">Normal Mode</string>
+    <string name="activity_home_button_quit">Quit</string>
+    <string name="activity_home_hint">Just tell me that \nyour math is taught \nby Liu Xiang \nwith your action.</string>
+
+    <!-- Strings for GameActivity -->
+    <string name="score_correct_hint">Correct:</string>
+    <string name="score_pass_hint">Pass:</string>
+    <string name="score_error_hint">Error:</string>
+    <string name="activity_game_operation_correct">√</string>
+    <string name="activity_game_operation_error">×</string>
+    <string name="activity_game_operation_plus">+</string>
+    <string name="activity_game_operation_minus">-</string>
+    <string name="activity_game_operation_multiply">×</string>
+    <string name="activity_game_operation_division">÷</string>
+    <string name="activity_game_operation_equal">=</string>
+
+    <!-- Strings for ResultActivity -->
+    <string name="activity_result_choice_button_again">Again</string>
+    <string name="activity_result_choice_button_quit">Quit</string>
+    <string name="activity_result_choice_button_share">Share</string>
+   
+    <string name="activity_result_score_hint_correct">Correct</string>
+    <string name="activity_result_score_hint_no">Pass</string>
+    <string name="activity_result_score_hint_error">Error</string>
+    <string name="activity_result_score_hint_rank">Rank</string>
+    <string name="activity_result_score_hint_total">Total</string>
+
+    <!-- Strings for SettingActivity -->
+    <string name="activity_setting_menu_speed_name">Speed</string>
+    <string name="activity_setting_menu_number_name">Number</string>
+    <string name="activity_setting_menu_speed_slow">Slow Speed</string>
+    <string name="activity_setting_menu_speed_middle">Middle Speed</string>
+    <string name="activity_setting_menu_speed_fast">Fast Speed</string>
+    <string name="activity_setting_menu_number_judge_hint">Judge Number(10&#8211;50):</string>
+    <string name="activity_setting_menu_number_calculate_hint">Calculate Number(10&#8211;50):</string>
+    <string name="activity_setting_menu_number_judge_input_hint">Input number of judging operation</string>
+    <string name="activity_setting_menu_number_calculate_input_hint">Input number of calculating operation</string>
+    <string name="activity_setting_title_hint">Settings</string>
+    <string name="activity_setting_dialog_title">Error</string>
+    <string name="activity_setting_dialog_message">The number is not correct!Do you want to use default values?</string>
+
+   
+</resources>

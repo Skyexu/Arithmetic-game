@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_margin_vertical"
+        android:paddingLeft="@dimen/activity_margin_horizontal"
+        android:paddingRight="@dimen/activity_margin_horizontal"
+        android:paddingTop="@dimen/activity_margin_vertical" >
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_setting_back_button_margin_bottom"
+            android:background="@drawable/selector_activity_setting_back_button_bg"
+            android:contentDescription="@null"
+            android:onClick="onSureButtonClick"
+            android:paddingBottom="@dimen/activity_setting_back_button_padding_bottom"
+            android:paddingLeft="@dimen/activity_setting_back_button_padding_left"
+            android:paddingRight="@dimen/activity_setting_back_button_padding_right"
+            android:paddingTop="@dimen/activity_setting_back_button_padding_top"
+            android:src="@drawable/ic_navigation_accept" />
+	 <!-- 范围设置项 -->
+
+        <LinearLayout style="@style/SettingActivityMenuLLStyle" >
+
+            <TextView
+                style="@style/SettingActivityMenuNameTVStyle"
+                android:text="@string/activity_setting_menu_numRange_name" />
+
+            <RadioGroup
+                android:id="@+id/activity_setting_menu_numRange_choices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_setting_menu_padding_left" >
+
+                <RadioButton
+                    android:id="@+id/activity_setting_menu_numRange_choice_ten"
+                    style="@style/SettingActivityRadioButtonStyle"
+                    android:text="@string/activity_setting_menu_numRange_ten" />
+
+                <RadioButton
+                    android:id="@+id/activity_setting_menu_numRange_choice_hundred"
+                    style="@style/SettingActivityRadioButtonStyle"
+                    android:text="@string/activity_setting_menu_numRange_hundred" />
+
+              
+            </RadioGroup>
+        </LinearLayout>
+        
+        <!-- 速度设置项 -->
+
+        <LinearLayout style="@style/SettingActivityMenuLLStyle" >
+
+            <TextView
+                style="@style/SettingActivityMenuNameTVStyle"
+                android:text="@string/activity_setting_menu_speed_name" />
+
+            <RadioGroup
+                android:id="@+id/activity_setting_menu_speed_choices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingLeft="@dimen/activity_setting_menu_padding_left" >
+
+                <RadioButton
+                    android:id="@+id/activity_setting_menu_speed_choice_slow"
+                    style="@style/SettingActivityRadioButtonStyle"
+                    android:text="@string/activity_setting_menu_speed_slow" />
+
+                <RadioButton
+                    android:id="@+id/activity_setting_menu_speed_choice_middle"
+                    style="@style/SettingActivityRadioButtonStyle"
+                    android:text="@string/activity_setting_menu_speed_middle" />
+
+                <RadioButton
+                    android:id="@+id/activity_setting_menu_speed_choice_fast"
+                    style="@style/SettingActivityRadioButtonStyle"
+                    android:text="@string/activity_setting_menu_speed_fast" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <!-- 数量设置项 -->
+
+        <LinearLayout style="@style/SettingActivityMenuLLStyle" >
+
+            <TextView
+                style="@style/SettingActivityMenuNameTVStyle"
+                android:text="@string/activity_setting_menu_number_name" />
+
+            <LinearLayout style="@style/SettingActivityNumberLLStyle" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:text="@string/activity_setting_menu_number_judge_hint" />
+
+                <EditText
+                    android:id="@+id/activity_setting_menu_number_judge_input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:background="@null"
+                    android:hint="@string/activity_setting_menu_number_judge_input_hint"
+                    android:inputType="numberSigned" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/SettingActivityNumberLLStyle" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4"
+                    android:text="@string/activity_setting_menu_number_calculate_hint" />
+
+                <EditText
+                    android:id="@+id/activity_setting_menu_number_calculate_input"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.6"
+                    android:background="@null"
+                    android:hint="@string/activity_setting_menu_number_calculate_input_hint"
+                    android:inputType="numberSigned" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

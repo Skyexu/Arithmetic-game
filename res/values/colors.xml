@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dialog使用的颜色值 -->
+    <color name="dialog_bg_color">#FFFFFF</color>
+    <color name="dialog_button_normal_bg_color">#FFFFFF</color>
+    <color name="dialog_button_pressed_bg_color">#3F51B5</color>
+    <color name="dialog_title_text_color">#FF5722</color>
+    <color name="dialog_line_bg_color">#3F51B5</color>
+    <color name="dialog_message_text_color">#000000</color>
+
+    <!-- HomeActivity所使用的颜色值 -->
+    <color name="activity_home_hint_text_color">#FFFFFF</color>
+    <color name="activity_home_quit_button_normal_bg_color">#FFFFFF</color>
+    <color name="activity_home_quit_button_pressed_bg_color">#9C27B0</color>
+    <color name="activity_home_quit_button_text_color">#9A7BC3</color>
+    <color name="activity_home_mode_button_text_color">#FFFFFF</color>
+    <color name="activity_home_mode_button_normal_bg_color">#9A7BC3</color>
+    <color name="activity_home_mode_button_pressed_bg_color">#3F51B5</color>
+    <color name="activity_home_setting_button_normal_bg_color">#9A7BC3</color>
+    <color name="activity_home_setting_button_pressed_bg_color">#3F51B5</color>
+    <color name="activity_home_help_button_normal_bg_color">#9A7BC3</color>
+    <color name="activity_home_help_button_pressed_bg_color">#3F51B5</color>
+
+    <!-- LoadingDialog所使用的颜色值 -->
+    <color name="dialog_loading_bg_color">#FFFFFF</color>
+    <color name="dialog_loading_text_color">#000000</color>
+
+    <!-- GameActivity中使用的颜色值 -->
+    <color name="activity_game_count_down_widget_alarm_color">#F64E4D</color>
+    <color name="activity_game_count_down_widget_full_color">#BA9132</color>
+    <color name="score_correct_tv_color">#28D18C</color>
+    <color name="score_pass_tv_color">#F6CF44</color>
+    <color name="score_error_tv_color">#EA5B57</color>
+    <color name="activity_game_score_tv_text_color">#FFFFFF</color>
+    <color name="activity_game_operation_tv_text_color">#FFFFFF</color>
+    <color name="activity_game_operation_tv_one_bg_color">#9C27B0</color>
+    <color name="activity_game_operation_tv_two_bg_color">#673AB7</color>
+    <color name="activity_game_operation_tv_three_bg_color">#3F51B5</color>
+    <color name="activity_game_operation_tv_four_bg_color">#5677FC</color>
+    <color name="activity_game_operation_tv_five_bg_color">#259B24</color>
+    <color name="activity_game_operation_tv_six_bg_color">#FF9800</color>
+    <color name="activity_game_operation_tv_seven_bg_color">#FF5722</color>
+    <color name="activity_game_operation_tv_pressed_bg_color">#607D8B</color>
+    <color name="activity_game_operation_tv_bg_color">#9A7BC3</color>
+
+    <!-- ResultActivity中使用的颜色值 -->
+    <color name="activity_result_choice_button_text_color">#FFFFFF</color>
+    <color name="activity_result_choice_button_normal_bg_color">#9A7BC3</color>
+    <color name="activity_result_choice_button_pressed_bg_color">#3F51B5</color>
+    <color name="activity_result_hint_text_color">#FF5722</color>
+    <color name="activity_result_score_hint_text_color">#FFFFFF</color>
+
+    <!-- SettingActivity中使用的颜色值 -->
+    <color name="activity_setting_menu_ll_bg_stroke_color">#CFD8DC</color>
+    <color name="activity_setting_menu_name_bg_color">#9A7BC3</color>
+    <color name="activity_setting_menu_name_text_color">#FFFFFF</color>
+    <color name="activity_setting_menu_ll_bg_color">#FFFFFF</color>
+    <color name="activity_setting_back_button_normal_bg_color">#9A7BC3</color>
+    <color name="activity_setting_back_button_pressed_bg_color">#3F51B5</color>
+
+    <!-- HelpActivity中使用的颜色值 -->
+    <color name="activity_help_back_button_normal_bg_color">#9A7BC3</color>
+    <color name="activity_help_back_button_pressed_bg_color">#3F51B5</color>
+    <color name="activity_help_hint_text_color">#FFFFFF</color>
+    <color name="activity_help_hint_bg_color">#5677FC</color>
+    <color name="activity_help_intro_ll_bg_stroke_color">#CFD8DC</color>
+    <color name="activity_help_intro_ll_bg_color">#FFFFFF</color>
+    <color name="activity_help_intro_tv_text_color">#FFFFFF</color>
+
+</resources>
